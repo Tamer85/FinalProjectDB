@@ -1,0 +1,23 @@
+﻿1>------ Build started: Project: mysql, Configuration: Release x64 ------
+1>Build started 31/07/2019 21:12:53.
+1>Target InitializeBuildStatus:
+1>  Creating "x64\Release\mysql.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>Target ClCompile:
+1>  sqldb.cpp
+1>Target Link:
+1>  Generating code
+1>  6 of 151 functions ( 4.0%) were compiled, the rest were copied from previous compilation.
+1>    0 functions were new in current compilation
+1>    2 functions had inline decision re-evaluated but remain unchanged
+1>  Finished generating code
+1>  mysql.vcxproj -> C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\x64\Release\mysql.exe
+1>Target FinalizeBuildStatus:
+1>  Deleting file "x64\Release\mysql.tlog\unsuccessfulbuild".
+1>  Touching "x64\Release\mysql.tlog\mysql.lastbuildstate".
+1>
+1>Build succeeded.
+1>    0 Warning(s)
+1>    0 Error(s)
+1>
+1>Time Elapsed 00:00:02.57
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

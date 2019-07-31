@@ -1,0 +1,26 @@
+﻿Build started 31/07/2019 22:00:09.
+     1>Project "C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\mysql\mysql.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\mysql.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\bin\HostX86\x64\CL.exe /c /I"C:\Program Files\MySQL\Connector C++ 8.0\include" /I"C:\Program Files\boost_1_69_0\boost_1_69_0" /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /Gd /TP /FC /errorReport:prompt sqldb.cpp
+         sqldb.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\x64\Release\mysql.exe" /NOLOGO /LIBPATH:"C:\Program Files\MySQL\Connector C++ 8.0\lib64" /LIBPATH:"C:\Program Files\MySQL\Connector C++ 8.0\lib64\vs14" mysqlcppconn8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\x64\Release\mysql.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\x64\Release\mysql.lib" /MACHINE:X64 x64\Release\Source.obj
+         x64\Release\sqldb.obj
+         Generating code
+         3 of 151 functions ( 2.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         mysql.vcxproj -> C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\x64\Release\mysql.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\mysql.tlog\unsuccessfulbuild".
+         Touching "x64\Release\mysql.tlog\mysql.lastbuildstate".
+     1>Done Building Project "C:\Users\User\Desktop\FINSH\ProjectDB\ProjectDBupdateFinal\mysql\mysql.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.25
